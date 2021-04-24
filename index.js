@@ -45,7 +45,7 @@ function askQuestions(){
             type: "list",
             name: "license",
             message: "What license was used?",
-            choices: ["BSD", "MIT", "GPL", "N/A"]
+            choices: ["BSD", "MIT", "GPL", "Apache", "Mozilla", "N/A"]
         },
         {
             type: "input",
@@ -62,14 +62,24 @@ function askQuestions(){
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile(fileName, data, (err) => {
+        err ? console.log(err) : console.log("Successfully created README file!");
+    })
 }
+
+const promiseUtil = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
-function init() {
-    const data = await askQuestions();
-    const generateMarkdown = markdownGenerator(data);
-}
+ async function init() {
+    try {
+        const data = await askQuestions();
+        const generateMarkdown = markdownGenerator(data);
+        await promiseUtil("README.md", generateMarkdown);
+    } catch (err) {
+        console.log(err);
+    }
+} 
+
 
 // Function call to initialize app
 init();
