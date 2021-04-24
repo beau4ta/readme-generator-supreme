@@ -5,7 +5,7 @@
   N/A
 
   ## Description
-  This application let's the user create a readme file based off how the user answers the promted questions.
+  This application let's the user create a readme file based off how the user answers the prompted questions.
 
   ## Table of Contents
   - [Description](#description)
