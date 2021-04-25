@@ -1,11 +1,11 @@
 
-  # README Generator Supreme
+  # Coll project
   
-  ## License
-  N/A
+  
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## Description
-  This application let's the user create a readme file based off how the user answers the promted questions.
+  to be cool
 
   ## Table of Contents
   - [Description](#description)
@@ -20,21 +20,21 @@
   npm install
 
   ## Usage
-  run node index.js
+  you just do
 
   ## License
-  N/A
+  Apache
   
   ## Contributing
-  Beau Fortier
+  Beau
 
   ## Tests
-  No test were involved.
+  no
 
   ## Questions
-  Email me for any questions!
+  anywhere
   
-  GitHub: [beau4ta](https://github.com/beau4ta)
+  GitHub: [beau4ta	](https://github.com/beau4ta	)
   
   Email me with any questions: beaufortier13@gmail.com
   
