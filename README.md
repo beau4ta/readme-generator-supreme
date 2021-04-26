@@ -1,10 +1,29 @@
 
-  # README Generator Supreme
+  # YO
   
-  ![License](https://img.shields.io/badge/License-N/A%202.0-blue.svg)
+  function renderLicenseSection(license) {
+  if (license) {
+    return "## License";
+  } else {
+    return "";
+  }
+}
+  function renderLicenseBadge(license) {
+  if (license) {
+    return `![License]`;
+  } else {
+    return "";
+  }
+}function renderLicenseLink(license) {
+  if (license){
+    return `(https://img.shields.io/badge/License-${data.license}%202.0-blue.svg)`
+  } else {
+    return ""
+  }
+}
 
   ## Description
-  The purpose of this application is to generate a readme for a user that has answered questions prompted by the application
+  YO
 
   ## Table of Contents
   - [Description](#description)
@@ -16,24 +35,24 @@
   - [Questions](#questions)
 
   ## Installation
-  you install this application by using the 'npm install' command
+  YO
 
   ## Usage
-  After you install the modules, run node index.js
+  YO
 
   ## License
   BSD
   
   ## Contributing
-  Beau Fortier and CWRU Bootcamp
+  YOY
 
   ## Tests
-  No test were involved.
+  YO
 
   ## Questions
-  Here is my contact information:
+  YOY
   
-  GitHub: [beau4ta](https://github.com/beau4ta)
+  GitHub: [YO](https://github.com/YO)
   
-  Email me with any questions: beaufortier13@gmail.com
+  Email me with any questions: YO
   
