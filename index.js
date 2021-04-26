@@ -1,9 +1,13 @@
+//README Generator Supreme - Beau Fortier
+
+//importing modules
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 
 const markdownGenerator = require('./utils/generateMarkdown')
 
+//function to prompt the user
 function askQuestions(){
     return inquirer.prompt([
         {

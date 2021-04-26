@@ -1,10 +1,10 @@
 
-  # Cool project
-
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+  # README Generator Supreme
+  
+  ![License](https://img.shields.io/badge/License-N/A%202.0-blue.svg)
 
   ## Description
-  This application let's the user create a readme file based off how the user answers the prompted questions.
+  The purpose of this application is to generate a readme for a user that has answered questions prompted by the application
 
   ## Table of Contents
   - [Description](#description)
@@ -16,24 +16,24 @@
   - [Questions](#questions)
 
   ## Installation
-  npm install
+  you install this application by using the 'npm install' command
 
   ## Usage
-  you just do
+  After you install the modules, run node index.js
 
   ## License
-  Apache
+  BSD
   
   ## Contributing
-  Beau
+  Beau Fortier and CWRU Bootcamp
 
   ## Tests
-  no
+  No test were involved.
 
   ## Questions
-  anywhere
+  Here is my contact information:
   
-  GitHub: [beau4ta	](https://github.com/beau4ta	)
+  GitHub: [beau4ta](https://github.com/beau4ta)
   
   Email me with any questions: beaufortier13@gmail.com
   
