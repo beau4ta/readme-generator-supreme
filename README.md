@@ -1,11 +1,10 @@
 
-  # Coll project
-  
-  
+  # Cool project
+
   ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## Description
-  to be cool
+  This application let's the user create a readme file based off how the user answers the prompted questions.
 
   ## Table of Contents
   - [Description](#description)
