@@ -1,3 +1,4 @@
+
   # README Generator Supreme
   
   ## License
@@ -36,5 +37,3 @@
   GitHub: [beau4ta](https://github.com/beau4ta)
   
   Email me with any questions: beaufortier13@gmail.com
-  
-  Link to video: https://drive.google.com/file/d/1t662ik-f23BjMq4RDr3n-zz5C7u6F3zN/view
